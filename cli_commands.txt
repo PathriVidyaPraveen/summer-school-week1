@@ -1,0 +1,27 @@
+1. pwd — What output did this give? Why is it useful?
+Answer: pwd outputs the current working directory’s full path.It is useful to know exactly where you are in the filesystem.
+2. ls -l — What kind of details did this show about files?
+Answer: ls -l shows detailed info about files: permissions, number of links, owner, group, size, and last modification date/time.
+3. mkdir test folder — What changed in your directory?
+Answer: Two new directories named test and folder were created in your current directory.
+4. touch hello.txt — What file was created? Where?
+Answer: A new empty file named hello.txt was created in the current working directory.
+5. rm hello.txt — What happened after this command?
+Answer: The file `hello.txt` was deleted from the current directory.
+6. chmod +x filename.sh — What does this permission change do?
+Answer: It makes `filename.sh` executable by adding execute permission.
+7. git init — What does this set up in your folder?
+Answer: It initializes a new Git repository by creating a `.git` folder in your current directory.
+8. git status — What does this show about your current repo?
+Answer: It shows the current state of your repo, including staged, unstaged, and untracked files.
+9. git add . — What happens to your files?
+Answer: All changes in the current directory are staged for the next commit.
+10. git commit -m "Initial commit" — What is recorded and where?
+Answer: The staged changes are saved as a commit with the message "Initial commit" in the local Git repository.
+11. git push origin main — What did this do to your GitHub repo?
+Answer: It uploaded your local `main` branch commits to the remote GitHub repository named `origin`.
+12. git checkout -b new-feature — What was created here?
+Answer: A new branch called `new-feature` was created and switched to immediately.
+13. code . — What launched on your system?
+Answer: VS Code editor opened with the current directory loaded as the workspace.
+
